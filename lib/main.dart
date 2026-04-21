@@ -55,6 +55,9 @@ class _MyCalculatorState extends State<MyCalculator> {
       if (days > 0) {
         dailyBudget = budget / days;
       }
+      if (days <= 0) {
+        message = "Days must be greater than 0";
+      }
 
       if (remaining < 0) {
         message = "You are over budget!";
