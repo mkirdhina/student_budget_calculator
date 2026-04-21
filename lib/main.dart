@@ -113,7 +113,7 @@ class _MyCalculatorState extends State<MyCalculator> {
             ),
             const SizedBox(height: 25),
 
-            
+            Row(
               children: [
                 Expanded(
                   child: ElevatedButton(
