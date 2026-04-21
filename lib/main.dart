@@ -57,6 +57,8 @@ class _MyCalculatorState extends State<MyCalculator> {
       }
       if (days <= 0) {
         message = "Days must be greater than 0";
+        currentImage = "assets/images/coverMoney.jpg";
+        return;
       }
 
       if (remaining < 0) {
